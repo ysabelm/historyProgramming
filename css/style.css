@@ -34,9 +34,18 @@ nav a {
   color: white;
 }
 
+nav li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
 p {
   color: white;
-  border: 1px solid white;
+  border: solid;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
 }
 
 footer {
@@ -49,13 +58,13 @@ footer {
 }
 
 .container img {
-  display: block;
 }
 
 .date-square {
-  width: 50px;
+  width: 55px;
   height: 50px;
   background-color: white;
+  display: inline-block;
 }
 
 .date-square  p {
