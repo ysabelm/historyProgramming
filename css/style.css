@@ -1,4 +1,4 @@
-body {
+body  {
   margin: 0px;
   border: 0;
   font-family: 'Space Mono';
@@ -7,15 +7,15 @@ body {
 }
 
 h1 {
-	display: inline;
+  display: block;
 }
 
 h2 {
-	display: inline;
+  display: block;
 }
 
 h4 {
-	display: inline;
+  display: block;
 }
 
 header {
@@ -39,12 +39,17 @@ p {
   border: 1px solid white;
 }
 
+footer {
+  height: 200px;
+  color: white;
+}
+
 .container {
   text-align: center;
 }
 
 .container img {
-
+  display: block;
 }
 
 .date-square {
@@ -53,7 +58,7 @@ p {
   background-color: white;
 }
 
-.date-square p {
+.date-square  p {
   color: black;
   width: 50px;
   height: 30px;
@@ -69,11 +74,6 @@ p {
   position: absolute;
   right: 15px;
   bottom: 15px;
-}
-
-footer {
-  height: 200px;
-  color: white;
 }
 
 footer li {
