@@ -24,14 +24,16 @@ header {
   padding: 5px;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 nav {
   text-align: right;
   margin-bottom: 10px;
   position: fixed;
-  top: 87px;
   width: 100%;
+  top: 87px;
+  z-index: 5;
 }
 
 nav a {
@@ -77,6 +79,7 @@ footer {
   display: inline-block;
   position: relative;
   bottom: 25px;
+  z-index: 5;
 }
 
 .date-square  p {
