@@ -22,11 +22,16 @@ header {
   background-color: #0e0e0e;
   color: white;
   padding: 5px;
+  position: fixed;
+  width: 100%;
 }
 
 nav {
   text-align: right;
   margin-bottom: 10px;
+  position: fixed;
+  top: 87px;
+  width: 100%;
 }
 
 nav a {
@@ -42,7 +47,6 @@ nav li {
 
 p {
   color: white;
-  border: solid;
   display: inline-block;
   width: 200px;
   height: 200px;
@@ -51,6 +55,7 @@ p {
 footer {
   height: 200px;
   color: white;
+  position: relative;
 }
 
 .container {
@@ -58,6 +63,7 @@ footer {
 }
 
 .container img {
+
 }
 
 .date-square {
@@ -81,8 +87,8 @@ footer {
   width: auto;
   margin: 0px;
   position: absolute;
-  right: 15px;
-  bottom: 15px;
+  right: 5px;
+  bottom: 5px;
 }
 
 footer li {
