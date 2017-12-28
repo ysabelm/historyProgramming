@@ -69,7 +69,8 @@ footer {
 }
 
 .container img {
-
+  width: 256px;
+  height: 255px;
 }
 
 .date-square {
